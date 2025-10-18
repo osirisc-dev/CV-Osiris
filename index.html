@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Osiris Carrillo — CV Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <div class="accent"></div>
+
+  <!-- NAV -->
+  <nav>
+    <div class="container navbar">
+      <div class="brand">
+        osiris.dev
+      </div>
+      <div class="actions">
+        <a class="btn" href="assets/CV-Osiris-ES.pdf" download>
+          CV
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="container section hero reveal" id="inicio">
+    <div class="blob" aria-hidden="true"></div>
+    <div class="heroGrid">
+      <div class="heroCard">
+        <h1><span class="halo">Osiris Josué Carrillo Galván</span></h1>
+        <ul class="meta">
+          <li>📍 Guadalajara, Jalisco</li>
+          <li>✉️ <a href="mailto:osiris.carrillo01@gmail.com">osiris.carrillo01@gmail.com</a></li>
+          <li>📞 +52 331 755 0710</li>
+        </ul>
+      </div>
+
+      <div class="heroCard profile">
+        <img class="avatar" src="assets/foto.jpg" alt="Foto de Osiris" />
+        <div>
+          <h3>Perfil</h3>
+          <p class="lead small">
+            Estudiante de Ingeniería en Computación orientado a desarrollo web.
+            Experiencia creando sitios y apps con HTML, CSS, JS, PHP y MySQL.
+            Listo para prácticas en frontend o backend junior.
+          </p>
+          <div class="chips">
+            <span class="chip c1">HTML</span><span class="chip c2">CSS</span>
+            <span class="chip c3">JavaScript</span><span class="chip c4">PHP</span>
+            <span class="chip c5">MySQL</span><span class="chip c6">Python</span>
+            <span class="chip c7">Kotlin</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- PROYECTOS -->
+  <section class="container section reveal" id="proyectos">
+    <h2>Proyectos destacados</h2>
+    <div class="grid">
+      <article class="card accent1">
+        <h3>Sistema de centros de acopio</h3>
+        <p>CRUD con validación y MySQL. Vistas limpias y flujo completo.</p>
+        <p class="muted">PHP · MySQL · HTML/CSS</p>
+      </article>
+
+      <article class="card accent2">
+        <h3>Sitios con base de datos</h3>
+        <p>Formularios dinámicos y consultas seguras para flujos tipo escolar.</p>
+        <p class="muted">PHP · MySQL · JS</p>
+      </article>
+
+      <article class="card accent3">
+        <h3>Automatización con Python</h3>
+        <p>Scripts para cálculos y tareas repetitivas. Ahorro de tiempo real.</p>
+        <p class="muted">Python · CLI</p>
+      </article>
+
+      <article class="card accent4">
+        <h3>Apps por consola C/C++</h3>
+        <p>Estructuras de datos y memoria dinámica en utilidades y juegos.</p>
+        <p class="muted">C/C++ · Algoritmos</p>
+      </article>
+
+      <article class="card accent5">
+        <h3>App Android — servicio social</h3>
+        <p>Registro y visualización de horas con persistencia local.</p>
+        <p class="muted">Kotlin · Android</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- EXPERIENCIA -->
+  <section class="container section reveal" id="experiencia">
+    <h2>Experiencia</h2>
+    <div class="timeline">
+      <div class="step">
+        <strong>Preparatoria Regional Santa Anita — Servicio social</strong>
+        <div class="muted">Ene 2025 – Jul 2025</div>
+        <ul class="muted list">
+          <li>Mantenimiento preventivo de equipos de cómputo.</li>
+          <li>Apoyo en documentos e informes con Microsoft Office.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCACIÓN -->
+  <section class="container section reveal" id="educacion">
+    <h2>Educación</h2>
+    <div class="card">
+      <strong>Universidad de Guadalajara — CUCEI</strong>
+      <div class="muted">Ingeniería en Computación · 2022 – Actualidad · Tlaquepaque, Jalisco</div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section class="container section reveal" id="habilidades">
+    <h2>Habilidades</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Técnicas</h3>
+        <ul class="muted list">
+          <li>HTML, CSS, JavaScript</li>
+          <li>PHP, MySQL</li>
+          <li>Python, C/C++</li>
+          <li>Kotlin, Android Studio</li>
+          <li>Git, GitHub, VS Code</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Personales</h3>
+        <ul class="muted list">
+          <li>Comunicación y trabajo en equipo</li>
+          <li>Adaptabilidad y aprendizaje rápido</li>
+          <li>Resolución de problemas</li>
+          <li>Inglés técnico básico</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Highlights</h3>
+        <div class="chips">
+          <span class="chip c3">Responsive</span>
+          <span class="chip c5">Accesible</span>
+          <span class="chip c2">Performance</span>
+          <span class="chip c7">UI limpia</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="container section footer">
+    <small id="date"></small>
+    <div>
+      <button class="btn ghost" id="top">
+        ↑ Arriba
+      </button>
+    </div>
+  </footer>
+
+</body>
+</html>
